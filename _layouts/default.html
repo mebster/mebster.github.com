@@ -1,87 +1,23 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>F&eacute;d&eacute;ration Agile Francophone</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css"/>
-</head>
-<body class="home">
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include successes_grid.html %}
+    {% include profile.html %}
+    {% include videos_grid.html %}
 
+    {% if site.contact == "static" %}
+    {% include contact_static.html %}
+    {% elsif site.contact == "disqus" %}
+    {% include contact_disqus.html %}
+    {% else %}
+    {% include contact.html %}
+    {% endif %}
 
-	<DIV id=maindiv1 align=center><DIV id=maindiv2 style="WIDTH: 900px; POSITION: relative">
-	<TABLE style="POSITION: relative;BORDER-COLLAPSE: collapse" id=maintable border=0 cellSpacing=0 cellPadding=0 width=900 align=center>
-	<TBODY>
-	<TR>
-	<TD height=45 vAlign=bottom>
-	<TABLE style="POSITION: absolute;BORDER-COLLAPSE: collapse;TOP: 25px;RIGHT: 2px" border=0 cellSpacing=0 cellPadding=0 width=450>
-	<TBODY>
-	<TR>
-	<TD vAlign=top align=right>F&eacute;d&eacute;ration Agile Francophone &copy; 2010 </TD></TR></TBODY></TABLE></TD></TR>
-	<TR>
-	<TD vAlign=top>
-	<TABLE style="BORDER-COLLAPSE: collapse" border=1 cellSpacing=0 borderColor=#000000 cellPadding=0 width=900>
-	<TBODY>
-	<TR>
-	<TD vAlign=top>
-	<TABLE style="BORDER-COLLAPSE: collapse" border=0 cellSpacing=0 cellPadding=0 width="100%">
-	<TBODY>
-	<TR>
-	<TD style="BACKGROUND: url(/images/apples-and-water-lily/pic.jpg)" height=303 vAlign=top>
-	<P>&nbsp;</P></TD>
-	<TD style="PADDING-BOTTOM: 20px;PADDING-LEFT: 20px;PADDING-RIGHT: 20px;BACKGROUND: url(/images/apples-and-water-lily/right-bg.gif);PADDING-TOP: 20px" vAlign=top width=185>
-	<H1>News</H1>
-	<P>&nbsp;</P>
-	<P>Les membres de la f&eacute;d&eacute;ration interviennent r&eacute;guli&egrave;rement en conf&eacute;rences.</P>
-	<P><STRONG></STRONG>&nbsp;</P>
-	<P><STRONG>Prochainement:</STRONG> <BR><BR></P>
-	<UL>
-	<LI><STRONG>&nbsp;</STRONG><A href="http://xpday.ch/"><STRONG>XP Days &agrave; Gen&egrave;ve </STRONG></A>le 9 mai</LI></UL>
-	<P><B></B>&nbsp;</P>
-	<P><B>Derni&egrave;rement:&nbsp;&nbsp;&nbsp;</B></P>
-	<P>&nbsp;</P>
-	<UL>
-	<LI><A href="http://www.mix-it.fr/"><STRONG>Mix-IT &agrave; Lyon </STRONG></A>le 5 avril</LI>
-	<LI><A href="http://www.scrumday.fr/"><STRONG>ScrumDay à Paris </STRONG></A>le 31 mars</LI></UL>
-	<P><B></B>&nbsp;</P></TD></TR></TBODY></TABLE>
-	<TABLE style="BORDER-COLLAPSE: collapse" border=0 cellSpacing=0 cellPadding=0 width="100%" height=21>
-	<TBODY>
-	<TR>
-	<TD style="BACKGROUND: url(/images/apples-and-water-lily/menu_bg.gif) #000000 repeat-x" vAlign=top>
-	<TABLE style="BORDER-COLLAPSE: collapse;MARGIN-LEFT: 34px" class=menu border=0 cellSpacing=0 cellPadding=0 align=left height=21 meta="menu" metaid="Federation Agile">
-	<TBODY>
-	<TR id="menu">
-	<TD style="WIDTH: 2px;BACKGROUND: url(/images/apples-and-water-lily/menu-left.gif)" width=2><IMG width=1 height=1></TD>
-	<TD id="menuhome" class="menu" vAlign=center align=middle><A href="/index.html">Accueil</A></TD>
-	<TD style="WIDTH: 2px;BACKGROUND: url(/images/apples-and-water-lily/menu-div.gif)" width=2><IMG width=1 height=1></TD>
-	<TD id="menucommunique" class="menu" vAlign=center align=middle><A href="/communique/index.html">Communiqu&eacute;</A></TD>
-	<TD style="WIDTH: 2px;BACKGROUND: url(/images/apples-and-water-lily/menu-right.gif)" width=2><IMG width=1 height=1></TD></TR></TBODY></TABLE></TD>
-	<TD style="BACKGROUND: url(/images/apples-and-water-lily/side_bg.gif) #4e7e02 repeat-x 50% bottom" vAlign=top width=225><IMG width=1 height=1></TD></TR></TBODY></TABLE>
-	<TABLE style="BORDER-COLLAPSE: collapse;BACKGROUND: #ffffff" cellSpacing=0 cellPadding=0 width="100%" height="100%">
-	<TBODY>
-	<TR>
-
-
-    	{{ content }}
-	
-	
-	<TD style="PADDING-LEFT: 20px;PADDING-RIGHT: 20px;BACKGROUND: url(/images/apples-and-water-lily/right-bg.gif) repeat-y" vAlign=top width=185>
-	<P>&nbsp;</P>
-	<P>&nbsp;</P>
-	<P>&nbsp;</P>
-	<H2>Les membres signataires</H2>
-	<P>&nbsp;</P>
-	<P><A href="http://www.aubryconseil.com/">Claude Aubry</A></P>
-	<P><A href="http://www.sixsq.com/">Marc Elian B&eacute;gin</A></P>
-	<P><A href="http://www.agiletoyou.com/">Alexandre Boutin</A></P>
-	<P><A href="http://inagua.ch/">Jacques Couvreur</A></P>
-	<P><A href="http://www.thierrycros.net/">Thierry Gabriel Cros</A></P>
-	<P><A href="http://www.agilessence.fr/">Jean-Fran&ccedil;ois Jagodzinski</A></P>
-	<P><A href="http://www.morisseauconsulting.com/">Laurent Morisseau</A></P>
-	<P>&nbsp;</P>
-	<P>&nbsp;</P>
-	<P><FONT color=#4e7e02><STRONG>Nombre de participants</STRONG> ayant suivi l'une des formations "F&eacute;d&eacute;ration Agile" :&nbsp;<STRONG>&nbsp; &nbsp;228</STRONG></FONT></P>
-	<P><FONT color=#4e7e02></FONT>&nbsp;</P>
-	<P>&nbsp;</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
-	</DIV></DIV>
-	</BODY>
-
-</body>
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
 </html>

@@ -1,0 +1,60 @@
+# Site settings
+title: Mebster
+email: meb@mebster.me
+url: https://mebster.github.io
+description: "This is my personal website. Here I share my thoughts on software development, edge and cloud computing and bees."
+keywords: "edge, cloud, iot, innovation, iiot, humanitarian work, bees"
+skills: "Software Innovator"
+meta_author: Marc-Elian Bégin
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: mebster
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 595959
+  primary-rgb: "128,179,255"
+  primary-light: BEBFBB
+  secondary: "000000"
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Marc-Elian Bégin
+  location: Home, sweet home
+  social: Let's stay in touch!
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/lemeb
+  - title: linkedin
+    url: http://linkedin.com/mebster
+  - title: github
+    url: http://github.com/mebster
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Geneva
+  - line: Switzerland
+
+# Credits content
+credits: 'This website was created based on the Freelancer Jekyll theme. Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
