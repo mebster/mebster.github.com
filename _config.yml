@@ -5,7 +5,7 @@ url: https://mebster.github.io
 description: "This is my personal website. Here I share my thoughts on software development, edge and cloud computing and bees."
 keywords: "edge, cloud, iot, innovation, iiot, humanitarian work, bees"
 skills: "Software Innovator"
-meta_author: Marc-Elian Bégin
+meta_author: Marc-Élian Bégin
 
 # Google webmaster tools
 google_verify:
@@ -33,7 +33,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Marc-Elian Bégin
+  copyright: Marc-Élian Bégin
   location: Home, sweet home
   social: Let's stay in touch!
   credits: Credits
@@ -51,7 +51,7 @@ address:
   - line: Switzerland
 
 # Credits content
-credits: 'This website was created based on the Freelancer Jekyll theme. Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'This website was created based on the Freelancer Jekyll theme, by Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
