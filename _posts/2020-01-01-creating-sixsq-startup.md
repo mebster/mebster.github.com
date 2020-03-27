@@ -6,7 +6,6 @@ img: sixsq.png
 alt: image-alt
 employer: SixSq
 achievement: Founding and leading a successful technology SME
-permalink: /toto
 ---
 
 I already described in <button type="link" class="link-button" data-toggle="modal" data-target="#post-ariane-5">this post</button> the inception of SixSq in 2007 from my drive to introduce cloud computing at CERN.

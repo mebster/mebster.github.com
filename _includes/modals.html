@@ -28,25 +28,19 @@
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.project-date %}
-                                    <li>Date: {{ post.project-date }}
-                                        </strong>
-                                    </li>
-                                {% endif %}
                                 {% if post.achievement %}
                                     <li>Achievement:
                                         <strong>{{ post.achievement }}
                                         </strong>
                                     </li>
                                 {% endif %}
+                                <li>Date:
+                                    <strong>{{ post.date | date: "%B %Y" }}
+                                    </strong>
+                                </li>
                             </ul>
                             <div style="text-align: justify;">
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
-                            {% if post.content %}
-                                <p>{{ post.content | markdownify }}</p>
-                            {% endif %}
+                            <p>{{ post.content | markdownify }}</p>
                           </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

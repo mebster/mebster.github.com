@@ -2,7 +2,6 @@
 layout: default
 modal-id: 2
 short-name: ariane-5
-date: 2014-07-17
 img: rocket.png
 alt: image-alt
 employer: Aérospatiale (now Airbus Defence and Space)

@@ -4,7 +4,6 @@ modal-id: 5
 short-name: first-edge
 img: edge.png
 alt: image-alt
-project-date: April 2014
 employer: SixSq
 achievement: Created edge computing solution before the term existed
 ---

@@ -52,7 +52,7 @@ address:
   - line: Switzerland
 
 # Credits content
-credits: 'This website was created based on the Freelancer Jekyll theme, by Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'This website was created based on the Freelancer Jekyll theme by <a href="http://startbootstrap.com">Start Bootstrap</a>'
 
 # Build settings
 markdown: kramdown

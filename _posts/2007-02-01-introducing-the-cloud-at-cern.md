@@ -4,7 +4,6 @@ modal-id: 1
 short-name: cern
 img: cloud-cern.png
 alt: image-alt
-project-date: April 2014
 employer: CERN
 achievement: Introducing cloud technology to CERN
 ---

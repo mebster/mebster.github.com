@@ -260,6 +260,10 @@ section.contact textarea {
     z-index: 2;
 }
 
+.caption-content {
+  padding: 10px 10px;
+}
+
 @media(min-width:767px) {
     .portfolio .portfolio-item {
         margin: 0 0 30px;
