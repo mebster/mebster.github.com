@@ -30,6 +30,7 @@ color:
   primary-light: BEBFBB
   secondary: "000000"
   secondary-dark: 233140 #A2122F
+  link: 2F7FD8;
 
 # Footer settings
 footer:

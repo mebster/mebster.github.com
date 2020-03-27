@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 1
+short-name: cern
 img: cloud-cern.png
 alt: image-alt
 project-date: April 2014
@@ -18,6 +19,6 @@ My ideas were not always welcome, from gentle dismissals to stronger rebuffs.  B
 
 I'll let you read the paper if you want the detail, I hope it aged reasonably well.  But if you're impatient, the main conclusion was that the cloud was there to stay, and grid applications would be built on top of the cloud. This turns out to be true.
 
-I'd like to acknowledge the contributions of my reviewers for this paper. Special thanks go to James Casey for keeping me honest and resist attempts to water down my thoughts and of course Cal Loomis, who was brave enough to launch into the crazy adventure with me that became SixSq.
+I'd like to acknowledge the contributions of my reviewers for this paper. Special thanks go to [James Casey](https://www.linkedin.com/in/jamesc000) for keeping me honest and resist attempts to water down my thoughts and of course [Cal Loomis](https://www.linkedin.com/in/charlesloomis), who was brave enough to launch into the crazy adventure with me that became SixSq.
 
 CERN has of course since become a strong advocate of cloud technologies, now running one of the largest scientific cloud. CERN even became a customer of SixSq. Happy days!
