@@ -35,3 +35,19 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(document).ready(function () {
+    $(document).on('show.bs.modal', '.modal', function (event) {
+        var zIndex = 1040 + (10 * $('.modal:visible').length);
+        $(this).css('z-index', zIndex);
+        setTimeout(function() {
+          $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
+        }, 0);
+    });
+    $(document).on('hidden.bs.modal', '.modal', function (event) {
+        setTimeout(function() {
+          $('body:has(div.modal-stack)').addClass('modal-open');
+          $('body:not(:has(div.modal-stack))').removeClass('modal-open');
+        }, 0);
+    });
+});
