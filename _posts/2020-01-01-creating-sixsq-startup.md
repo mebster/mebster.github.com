@@ -3,7 +3,7 @@ layout: default
 modal-id: 6
 short-name: sixsq
 img: sixsq.png
-alt: image-alt
+alt: SixSq
 employer: SixSq
 achievement: Founding and leading a successful technology SME
 ---
