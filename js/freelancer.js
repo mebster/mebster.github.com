@@ -36,7 +36,14 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$(document).ready(function () {
+$(function(){
+      if(window.location.hash) {
+          var hash = window.location.hash;
+          $(hash).modal('toggle');
+      }
+  });
+
+$(function () {
     $(document).on('show.bs.modal', '.modal', function (event) {
         var zIndex = 1040 + (10 * $('.modal:visible').length);
         $(this).css('z-index', zIndex);
