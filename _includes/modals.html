@@ -38,6 +38,7 @@
                                     <strong>{{ post.date | date: "%B %Y" }}
                                     </strong>
                                 </li>
+                                <li><a href="#post-{{ post.short-name }}"><i class="fas fa-link"></i></a>
                             </ul>
                             <div style="text-align: justify;">
                             <p>{{ post.content | markdownify }}</p>

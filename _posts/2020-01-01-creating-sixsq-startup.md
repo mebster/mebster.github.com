@@ -8,7 +8,7 @@ employer: SixSq
 achievement: Founding and leading a successful technology SME
 ---
 
-I already described in <button type="link" class="link-button" data-toggle="modal" data-target="#post-ariane-5">this post</button> the inception of SixSq in 2007 from my drive to introduce cloud computing at CERN.
+I already described in <button type="link" class="link-button" data-toggle="modal" data-target="#post-cern">this post</button> the inception of SixSq in 2007 from my drive to introduce cloud computing at CERN.
 
 For a while, starting from my time in Germany (1997-2004), creating a company was something I wanted to try.  That and doing a PhD. So while working on my *cloud vs grid* position paper at CERN, after being convinced that cloud computing was the future, it was clear to me that I had the foundation for what could be a potentially successful company. But this is a scary (and crazy) endeavour. And *surround yourself with amazing people* was a really good piece of advice I got early on.
 
